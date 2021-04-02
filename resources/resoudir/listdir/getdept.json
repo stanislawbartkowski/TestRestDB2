@@ -5,5 +5,9 @@
     {"field" : "mgrno" },
     {"field" : "admrdept" },
     {"field" : "location" }
+  ],
+  "js" : "deptjs",
+  "click" : [
+    { "field" : "deptno", "jsaction" : "OO.al" }
   ]
 }

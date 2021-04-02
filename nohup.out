@@ -1,0 +1,345 @@
+GET https://sasvpn.emea.ibm.com/
+Próbowanie połączenia z serwerem 195.75.101.196:443
+Połączono z 195.75.101.196:443
+Używanie pliku certyfikatu /home/sbartkowski/.cisco/certificates/client/sbartkowski-vpn-user_cert.csr
+Używanie pliku klucza prywatnego /home/sbartkowski/.cisco/certificates/client/private/sbartkowski-vpn-private_key.key
+Używanie certyfikatu klienta „Stanisaw J Bartkowski”
+Negocjacja SSL z sasvpn.emea.ibm.com
+Połączono z HTTPS na sasvpn.emea.ibm.com za pomocą zestawu szyfrów (TLS1.2)-(RSA)-(AES-256-CBC)-(SHA1)
+Otrzymano odpowiedź HTTP: HTTP/1.0 302 Temporary moved
+Content-Length: 0
+Cache-Control: no-store
+Pragma: no-cache
+Connection: Close
+Date: Sun, 28 Mar 2021 18:45:28 GMT
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+Location: https://sasvpn07.emea.ibm.com/
+Treść HTTP length:  (0)
+GET https://sasvpn07.emea.ibm.com/
+Próbowanie połączenia z serwerem 195.75.101.203:443
+Połączono z 195.75.101.203:443
+Negocjacja SSL z sasvpn07.emea.ibm.com
+Połączono z HTTPS na sasvpn07.emea.ibm.com za pomocą zestawu szyfrów (TLS1.2)-(RSA)-(AES-256-CBC)-(SHA1)
+Otrzymano odpowiedź HTTP: HTTP/1.0 302 Temporary moved
+Set-Cookie: tg=0U0FTQ2VydA==; path=/; secure
+Content-Length: 0
+Cache-Control: no-store
+Pragma: no-cache
+Connection: Close
+Date: Sun, 28 Mar 2021 18:45:28 GMT
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+Location: /+webvpn+/index.html
+Treść HTTP length:  (0)
+GET https://sasvpn07.emea.ibm.com/+webvpn+/index.html
+Negocjacja SSL z sasvpn07.emea.ibm.com
+Połączono z HTTPS na sasvpn07.emea.ibm.com za pomocą zestawu szyfrów (TLS1.2)-(RSA)-(AES-256-CBC)-(SHA1)
+Otrzymano odpowiedź HTTP: HTTP/1.1 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+Transfer-Encoding: chunked
+Content-Type: text/xml; charset=utf-8
+Cache-Control: no-store
+Set-Cookie: webvpn=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; secure
+Set-Cookie: webvpn_as=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; secure
+Set-Cookie: webvpnc=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; secure
+Set-Cookie: webvpnlogin=1; secure
+X-Frame-Options: SAMEORIGIN
+X-Transcend-Version: 1
+Treść HTTP chunked (-2)
+GET https://sasvpn07.emea.ibm.com/CACHE/sdesktop/install/binaries/sfinst
+Negocjacja SSL z sasvpn07.emea.ibm.com
+Połączono z HTTPS na sasvpn07.emea.ibm.com za pomocą zestawu szyfrów (TLS1.2)-(RSA)-(AES-256-CBC)-(SHA1)
+Otrzymano odpowiedź HTTP: HTTP/1.1 404 Not Found
+Cache-Control: no-store
+Pragma: no-cache
+Connection: Close
+Date: Sun, 28 Mar 2021 18:45:28 GMT
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+Treść HTTP http 1.0 (-1)
+Nieczysto zamknięto gniazdo SSL
+Nieoczekiwany wynik „404” z serwera
+Nie można pobrać odcinka CSD. Kontynuowanie mimo tego za pomocą skryptu wrappera CSD.
+/usr/share/ibm-config-NetworkManager-openconnect/csd.sh -ticket "2750FC0C23761B3F279A3B5E" -stub "0" -group "" -certhash "D06612B3B50D997A9E595C345D17AE49:77E67843384D3080995D69C4FE7D1796" -url "https://195.75.101.203/CACHE/sdesktop/install/result.htm" -langselen
+Launching: /opt/cisco/hostscan/bin/cstub -log error -ticket "2750FC0C23761B3F279A3B5E" -stub "0" -group "" -host ""https://195.75.101.203/CACHE/sdesktop/install/result.htm"" -certhash "D06612B3B50D997A9E595C345D17AE49:77E67843384D3080995D69C4FE7D1796"
+drbg_instantiate failed
+GET https://sasvpn07.emea.ibm.com/+CSCOE+/sdesktop/wait.html
+Negocjacja SSL z sasvpn07.emea.ibm.com
+Połączono z HTTPS na sasvpn07.emea.ibm.com za pomocą zestawu szyfrów (TLS1.2)-(RSA)-(AES-256-CBC)-(SHA1)
+Otrzymano odpowiedź HTTP: HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Cache-Control: no-store
+Pragma: no-cache
+Connection: Close
+Date: Sun, 28 Mar 2021 18:45:31 GMT
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+Treść HTTP chunked (-2)
+Odświeżanie +CSCOE+/sdesktop/wait.html za 1 sekundę…
+GET https://sasvpn07.emea.ibm.com/+CSCOE+/sdesktop/wait.html
+Negocjacja SSL z sasvpn07.emea.ibm.com
+Połączono z HTTPS na sasvpn07.emea.ibm.com za pomocą zestawu szyfrów (TLS1.2)-(RSA)-(AES-256-CBC)-(SHA1)
+Otrzymano odpowiedź HTTP: HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Cache-Control: no-store
+Pragma: no-cache
+Connection: Close
+Date: Sun, 28 Mar 2021 18:45:33 GMT
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+Treść HTTP chunked (-2)
+Odświeżanie +CSCOE+/sdesktop/wait.html za 1 sekundę…
+GET https://sasvpn07.emea.ibm.com/+CSCOE+/sdesktop/wait.html
+Negocjacja SSL z sasvpn07.emea.ibm.com
+Połączono z HTTPS na sasvpn07.emea.ibm.com za pomocą zestawu szyfrów (TLS1.2)-(RSA)-(AES-256-CBC)-(SHA1)
+Otrzymano odpowiedź HTTP: HTTP/1.1 302 Moved Temporarily
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Cache-Control: no-store
+Pragma: no-cache
+Connection: Close
+Date: Sun, 28 Mar 2021 18:45:34 GMT
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+Location: /+webvpn+/index.html
+Set-Cookie: sdesktop=7BBE5C993623A1E048FF23E3; path=/; secure
+Treść HTTP chunked (-2)
+GET https://sasvpn07.emea.ibm.com/+webvpn+/index.html
+Negocjacja SSL z sasvpn07.emea.ibm.com
+Połączono z HTTPS na sasvpn07.emea.ibm.com za pomocą zestawu szyfrów (TLS1.2)-(RSA)-(AES-256-CBC)-(SHA1)
+Otrzymano odpowiedź HTTP: HTTP/1.1 200 OK
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+Transfer-Encoding: chunked
+Content-Type: text/xml; charset=utf-8
+Cache-Control: no-store
+Set-Cookie: webvpnlogin=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; secure
+Set-Cookie: webvpn_as=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; secure
+Set-Cookie: samlPreauthSessionHash=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; secure
+Set-Cookie: acSamlv2Token=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; secure
+Set-Cookie: acSamlv2Error=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; secure
+Set-Cookie: tg=1U0FTQ2VydA==; expires=Mon, 29 Mar 2021 07:45:35 GMT; path=/; secure
+Set-Cookie: webvpn=<opuszczono>; path=/; secure
+Set-Cookie: webvpnc=bu:/CACHE/stc/&p:t&iu:1/&ch:ED4372960AF129FA220947A2D44A64704DA2F1D5&sh:290E1E982549762D2AE116439E36EF0EB06969B3&m:umbrella&lu:/+CSCOT+/translation-table?textdomain%3DAnyConnect%26type%3Dmanifest&fu:profiles%2Fall_access.xml&fh:653EF2A4281C2637ABBE777C9DD2FEC9139D9411; path=/; secure
+Set-Cookie: webvpnx=gu:umbrella@%2Fprofiles%2FOrgInfo.xml&gh:6B896A26AD50C061F6AA5901D804F19AA05E6737
+Set-Cookie: webvpnaac=1; path=/; secure
+X-Frame-Options: SAMEORIGIN
+X-Transcend-Version: 1
+Treść HTTP chunked (-2)
+TCP_INFO rcv mss 1354, snd mss 1354, adv mss 1448, pmtu 1500
+Otrzymano odpowiedź „CONNECT”: HTTP/1.1 200 OK
+X-CSTP-Version: 1
+X-CSTP-Protocol: Copyright (c) 2004 Cisco Systems, Inc.
+X-CSTP-Address: 9.145.158.124
+X-CSTP-Netmask: 255.255.240.0
+X-CSTP-Hostname: sasvpn07.emea.ibm.com
+X-CSTP-DNS: 9.0.138.50
+X-CSTP-DNS: 9.0.136.50
+X-CSTP-Lease-Duration: 1209600
+X-CSTP-Session-Timeout: none
+X-CSTP-Session-Timeout-Alert-Interval: 60
+X-CSTP-Session-Timeout-Remaining: none
+X-CSTP-Idle-Timeout: 1800
+X-CSTP-Disconnected-Timeout: 1800
+X-CSTP-Default-Domain: emea.ibm.com
+X-CSTP-Split-Include: 213.62.186.255/255.255.255.255
+X-CSTP-Split-Include: 206.199.196.128/255.255.255.240
+X-CSTP-Split-Include: 203.171.158.240/255.255.255.240
+X-CSTP-Split-Include: 195.183.191.192/255.255.255.240
+X-CSTP-Split-Include: 195.183.81.144/255.255.255.240
+X-CSTP-Split-Include: 194.194.242.192/255.255.255.240
+X-CSTP-Split-Include: 194.194.27.48/255.255.255.240
+X-CSTP-Split-Include: 67.69.180.48/255.255.255.240
+X-CSTP-Split-Include: 62.190.109.64/255.255.255.240
+X-CSTP-Split-Include: 62.189.149.176/255.255.255.240
+X-CSTP-Split-Include: 62.184.215.144/255.255.255.240
+X-CSTP-Split-Include: 210.158.202.160/255.255.255.224
+X-CSTP-Split-Include: 207.61.29.0/255.255.255.224
+X-CSTP-Split-Include: 204.146.133.96/255.255.255.224
+X-CSTP-Split-Include: 195.183.83.32/255.255.255.224
+X-CSTP-Split-Include: 195.183.81.160/255.255.255.224
+X-CSTP-Split-Include: 194.194.187.64/255.255.255.224
+X-CSTP-Split-Include: 193.163.24.224/255.255.255.224
+X-CSTP-Split-Include: 170.225.240.0/255.255.255.224
+X-CSTP-Split-Include: 170.224.54.128/255.255.255.224
+X-CSTP-Split-Include: 129.35.118.128/255.255.255.224
+X-CSTP-Split-Include: 67.69.180.64/255.255.255.224
+X-CSTP-Split-Include: 62.184.215.32/255.255.255.224
+X-CSTP-Split-Include: 62.184.184.128/255.255.255.224
+X-CSTP-Split-Include: 202.81.25.0/255.255.255.192
+X-CSTP-Split-Include: 202.81.20.128/255.255.255.192
+X-CSTP-Split-Include: 202.2.162.64/255.255.255.192
+X-CSTP-Split-Include: 199.185.7.64/255.255.255.192
+X-CSTP-Split-Include: 194.194.204.64/255.255.255.192
+X-CSTP-Split-Include: 194.42.49.64/255.255.255.192
+X-CSTP-Split-Include: 170.226.54.192/255.255.255.192
+X-CSTP-Split-Include: 170.226.54.128/255.255.255.192
+X-CSTP-Split-Include: 166.100.72.0/255.255.255.192
+X-CSTP-Split-Include: 67.69.180.128/255.255.255.192
+X-CSTP-Split-Include: 62.189.149.0/255.255.255.192
+X-CSTP-Split-Include: 168.224.220.128/255.255.255.128
+X-CSTP-Split-Include: 129.42.96.0/255.255.255.128
+X-CSTP-Split-Include: 67.69.182.0/255.255.255.128
+X-CSTP-Split-Include: 213.62.186.0/255.255.255.0
+X-CSTP-Split-Include: 209.134.170.0/255.255.255.0
+X-CSTP-Split-Include: 207.216.60.0/255.255.255.0
+X-CSTP-Split-Include: 207.216.57.0/255.255.255.0
+X-CSTP-Split-Include: 207.146.170.0/255.255.255.0
+X-CSTP-Split-Include: 207.61.30.0/255.255.255.0
+X-CSTP-Split-Include: 207.25.250.0/255.255.255.0
+X-CSTP-Split-Include: 206.199.198.0/255.255.255.0
+X-CSTP-Split-Include: 206.199.197.0/255.255.255.0
+X-CSTP-Split-Include: 206.199.195.0/255.255.255.0
+X-CSTP-Split-Include: 205.166.237.0/255.255.255.0
+X-CSTP-Split-Include: 204.146.167.0/255.255.255.0
+X-CSTP-Split-Include: 204.146.91.0/255.255.255.0
+X-CSTP-Split-Include: 204.109.174.0/255.255.255.0
+X-CSTP-Split-Include: 199.65.62.0/255.255.255.0
+X-CSTP-Split-Include: 199.65.61.0/255.255.255.0
+X-CSTP-Split-Include: 198.235.91.0/255.255.255.0
+X-CSTP-Split-Include: 198.235.74.0/255.255.255.0
+X-CSTP-Split-Include: 198.147.226.0/255.255.255.0
+X-CSTP-Split-Include: 195.183.244.0/255.255.255.0
+X-CSTP-Split-Include: 195.183.78.0/255.255.255.0
+X-CSTP-Split-Include: 195.118.230.0/255.255.255.0
+X-CSTP-Split-Include: 195.79.87.0/255.255.255.0
+X-CSTP-Split-Include: 195.51.138.0/255.255.255.0
+X-CSTP-Split-Include: 194.253.155.0/255.255.255.0
+X-CSTP-Split-Include: 194.194.59.0/255.255.255.0
+X-CSTP-Split-Include: 194.194.27.0/255.255.255.0
+X-CSTP-Split-Include: 194.194.26.0/255.255.255.0
+X-CSTP-Split-Include: 194.161.19.0/255.255.255.0
+X-CSTP-Split-Include: 194.32.223.0/255.255.255.0
+X-CSTP-Split-Include: 192.94.47.0/255.255.255.0
+X-CSTP-Split-Include: 192.91.197.0/255.255.255.0
+X-CSTP-Split-Include: 192.91.194.0/255.255.255.0
+X-CSTP-Split-Include: 166.100.65.0/255.255.255.0
+X-CSTP-Split-Include: 151.12.12.0/255.255.255.0
+X-CSTP-Split-Include: 129.36.226.0/255.255.255.0
+X-CSTP-Split-Include: 125.18.104.0/255.255.255.0
+X-CSTP-Split-Include: 125.18.17.0/255.255.255.0
+X-CSTP-Split-Include: 62.186.252.0/255.255.255.0
+X-CSTP-Split-Include: 209.134.168.0/255.255.254.0
+X-CSTP-Split-Include: 209.89.94.0/255.255.254.0
+X-CSTP-Split-Include: 207.216.62.0/255.255.254.0
+X-CSTP-Split-Include: 170.226.52.0/255.255.254.0
+X-CSTP-Split-Include: 170.226.6.0/255.255.254.0
+X-CSTP-Split-Include: 129.33.116.0/255.255.254.0
+X-CSTP-Split-Include: 121.255.28.0/255.255.254.0
+X-CSTP-Split-Include: 121.255.26.0/255.255.254.0
+X-CSTP-Split-Include: 63.100.30.0/255.255.254.0
+X-CSTP-Split-Include: 207.1.240.0/255.255.252.0
+X-CSTP-Split-Include: 170.226.48.0/255.255.252.0
+X-CSTP-Split-Include: 167.14.48.0/255.255.248.0
+X-CSTP-Split-Include: 158.84.16.0/255.255.248.0
+X-CSTP-Split-Include: 158.84.8.0/255.255.248.0
+X-CSTP-Split-Include: 129.42.128.0/255.255.224.0
+X-CSTP-Split-Include: 129.42.64.0/255.255.224.0
+X-CSTP-Split-Include: 170.226.64.0/255.255.192.0
+X-CSTP-Split-Include: 170.226.128.0/255.255.128.0
+X-CSTP-Split-Include: 206.199.0.0/255.255.0.0
+X-CSTP-Split-Include: 170.227.0.0/255.255.0.0
+X-CSTP-Split-Include: 167.210.0.0/255.255.0.0
+X-CSTP-Split-Include: 166.76.0.0/255.255.0.0
+X-CSTP-Split-Include: 164.120.0.0/255.255.0.0
+X-CSTP-Split-Include: 158.98.0.0/255.255.0.0
+X-CSTP-Split-Include: 149.131.0.0/255.255.0.0
+X-CSTP-Split-Include: 142.96.0.0/255.255.0.0
+X-CSTP-Split-Include: 130.103.0.0/255.255.0.0
+X-CSTP-Split-Include: 129.40.0.0/255.255.0.0
+X-CSTP-Split-Include: 129.39.0.0/255.255.0.0
+X-CSTP-Split-Include: 62.187.0.0/255.255.0.0
+X-CSTP-Split-Include: 62.186.0.0/255.255.0.0
+X-CSTP-Split-Include: 62.185.0.0/255.255.0.0
+X-CSTP-Split-Include: 9.0.0.0/255.0.0.0
+X-CSTP-Split-Include: 146.89.0.0/255.255.0.0
+X-CSTP-Split-Include: 170.225.217.92/255.255.255.255
+X-CSTP-Split-Include: 192.155.244.80/255.255.255.255
+X-CSTP-Split-Include: 158.87.0.0/255.255.0.0
+X-CSTP-Split-Include: 158.85.199.100/255.255.255.255
+X-CSTP-Split-Include: 50.97.124.80/255.255.255.255
+X-CSTP-Split-Include: 169.45.4.170/255.255.255.255
+X-CSTP-Split-Include: 169.45.5.120/255.255.255.255
+X-CSTP-Split-Include: 169.54.166.140/255.255.255.255
+X-CSTP-Split-Include: 169.54.161.40/255.255.255.255
+X-CSTP-Split-Include: 169.54.177.20/255.255.255.255
+X-CSTP-Split-Include: 198.20.13.0/255.255.255.240
+X-CSTP-Split-Include: 198.20.13.208/255.255.255.240
+X-CSTP-Split-Include: 209.134.160.0/255.255.224.0
+X-CSTP-Split-Include: 206.253.224.0/255.255.224.0
+X-CSTP-Split-Include: 207.231.128.0/255.255.224.0
+X-CSTP-Split-Include: 198.74.64.0/255.255.248.0
+X-CSTP-Split-Include: 158.85.209.128/255.255.255.240
+X-CSTP-Split-Include: 169.45.3.240/255.255.255.240
+X-CSTP-Split-Include: 169.45.4.160/255.255.255.224
+X-CSTP-Split-Include: 169.45.5.96/255.255.255.224
+X-CSTP-Split-Include: 169.54.161.32/255.255.255.224
+X-CSTP-Split-Include: 169.54.162.64/255.255.255.240
+X-CSTP-Split-Include: 169.54.166.128/255.255.255.224
+X-CSTP-Split-Include: 169.54.167.208/255.255.255.240
+X-CSTP-Split-Include: 169.54.177.0/255.255.255.224
+X-CSTP-Split-Include: 169.54.179.0/255.255.255.224
+X-CSTP-Split-Include: 169.54.183.192/255.255.255.224
+X-CSTP-Split-Include: 169.54.242.64/255.255.255.224
+X-CSTP-Split-Include: 198.23.124.128/255.255.255.128
+X-CSTP-Split-Include: 169.54.221.208/255.255.255.240
+X-CSTP-Split-Include: 194.10.152.0/255.255.248.0
+X-CSTP-Split-Include: 129.41.166.0/255.255.255.192
+X-CSTP-Split-Include: 32.0.0.0/255.224.0.0
+X-CSTP-Split-Include: 32.32.0.0/255.248.0.0
+X-CSTP-Split-Include: 32.60.240.220/255.255.255.252
+X-CSTP-Split-Include: 32.64.0.0/255.192.0.0
+X-CSTP-Split-Include: 32.180.21.0/255.255.255.0
+X-CSTP-Split-Include: 32.224.0.0/255.240.0.0
+X-CSTP-Split-Include: 195.118.243.0/255.255.255.0
+X-CSTP-Split-Include: 161.156.66.26/255.255.255.255
+X-CSTP-Split-Include: 169.38.79.32/255.255.255.240
+X-CSTP-Split-Include: 144.160.19.212/255.255.255.255
+X-CSTP-Split-Include: 144.160.125.226/255.255.255.255
+X-CSTP-Split-DNS: ibm.com
+X-CSTP-Split-DNS: lotus.com
+X-CSTP-Split-DNS: s81c.com
+X-CSTP-Split-DNS: ibmmodules.com
+X-CSTP-Split-DNS: ibmuc.com
+X-CSTP-Keep: true
+X-CSTP-Tunnel-All-DNS: false
+X-CSTP-DPD: 30
+X-CSTP-Keepalive: 20
+X-CSTP-MSIE-Proxy-Lockdown: true
+X-CSTP-Smartcard-Removal-Disconnect: true
+X-CSTP-MTU: 1299
+X-CSTP-Routing-Filtering-Ignore: false
+X-CSTP-Quarantine: false
+X-CSTP-Disable-Always-On-VPN: false
+X-CSTP-Client-Bypass-Protocol: true
+X-CSTP-TCP-Keepalive: true
+Połączono CSTP. DPD 30, Keepalive 20
+Skonfigurowanie UDP się nie powiodło. Używanie SSL zamiast tego
+Połączono jako 9.145.158.124, za pomocą SSL, z DTLS wyłączone
+Wysłanie „Keepalive” CSTP
+Wysłanie „Keepalive” CSTP
+Wysłanie „DPD” CSTP
+Otrzymano odpowiedź „DPD” CSTP
+Wysłanie „Keepalive” CSTP
+Wysłanie „Keepalive” CSTP
+Wysłanie „Keepalive” CSTP
+Wysłanie „Keepalive” CSTP
+Wysłanie „Keepalive” CSTP
+Wysłanie „DPD” CSTP
+Otrzymano odpowiedź „DPD” CSTP
+Wysłanie „Keepalive” CSTP
+Wysłanie „Keepalive” CSTP
+Wysłanie „DPD” CSTP
+Otrzymano odpowiedź „DPD” CSTP
+Wysłanie „Keepalive” CSTP
+Wysłanie „Keepalive” CSTP

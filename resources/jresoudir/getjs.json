@@ -1,0 +1,5 @@
+{
+  "proc" : "RESOURCE",
+  "dir" : "listdir",
+  "format" : "JS"
+}

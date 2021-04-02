@@ -1,3 +1,3 @@
 /target
-env.rc
-db2rest.properties
+/env.rc
+/db2rest.properties
