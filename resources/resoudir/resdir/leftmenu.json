@@ -7,6 +7,10 @@
     {
       "id": "product",
       "restid" : "getproduct"
+    },
+    {
+      "id": "projects",
+      "restid" : "getproject"
     }
 
   ]

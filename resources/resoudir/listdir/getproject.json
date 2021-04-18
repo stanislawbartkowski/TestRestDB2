@@ -1,0 +1,31 @@
+{
+    "columns": [
+      {
+        "field": "projno"
+      },
+      {
+        "field": "projname",
+        "coltitle": "name"
+      },
+      {
+        "field": "deptno"
+      },
+      {
+        "field": "respemp",
+        "coltitle": "employeeid"
+      },
+      {
+        "field": "prstaff",
+        "type" : "number"
+      },
+      {
+        "field": "prstdate",
+        "type": "date"
+      },
+      {
+        "field": "prendate",
+        "type": "date"
+      },
+      { "field" : "majproj"}
+    ]
+  }

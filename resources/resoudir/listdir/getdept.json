@@ -8,6 +8,9 @@
   ],
   "js" : "deptjs",
   "click" : [
-    { "field" : "deptno", "jsaction" : "OO.al" }
+    { "field" : "deptno", "jsaction" : "DEPT.clickproj" }
+  ],
+  "title" : [
+    { "field" : "deptno", "jsaction" : "DEPT.titledept" }
   ]
 }

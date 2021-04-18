@@ -13,7 +13,17 @@
     "price" : "Price",
     "promoprice_col" : "Promotion price",
     "promostart_col" : "Promotion start",
-    "promoend_col" : "Promotion end"
+    "promoend_col" : "Promotion end",
+
+    "button_projects" : "Projects",
+    "projno_col" : "Project number",
+    "employeeid" : "Employee number",
+    "prstaff_col" : "Pr staff",
+    "prstdate_col" : "Project start",
+    "prendate_col" : "Project end",
+    "majproj_col" : "Project",
+
+    "projfordept" : "Projects managed by department {0}"
 
   }
 }

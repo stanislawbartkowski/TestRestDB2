@@ -1,0 +1,9 @@
+{
+    "proc": "SQL",
+    "action": "SELECT * FROM PROJECT WHERE DEPTNO=?",
+    "pars": [
+        {
+            "name": "deptno"
+        }
+    ]
+}

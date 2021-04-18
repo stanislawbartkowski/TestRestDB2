@@ -1,5 +1,19 @@
-var OO = {
-    foo: function(x) { alert(x.a); alert(x.b); },
-    bar: function() {  window.x = 1; },
-    al: function(param) { alert("Hello I'm server call" + param.deptno); return { "aaa" : "bbbb" }; }
- };
+var DEPT = {
+    clickproj: function (row) {
+        return {
+            "action": "LISTSPEC",
+            "restid": "getprojdept",
+            "pars": { "deptno": row.deptno },
+            "title": {
+                "messid": "projfordept",
+                "params": [row.deptno]
+            }
+        }
+    },
+    titledept: function (row) {
+        return {
+            "messid": "projfordept",
+            "params": [row.deptno]
+        }
+    }
+};
